@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "ja_JP",
     title: "WAV Concatenator - 音声ファイル結合ツール",
-    description: "二つのWAVファイルを簡単に結合し、イントロ付きループ音声を作成。ゲーム開発や音楽制作に最適な無料オンラインツールです。",
+    description: "二つのWAVファイルを結合し、イントロ付きループ再生に適した一つのWAVファイルを生成します。",
     siteName: "WAV Concatenator",
     images: [
       {
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary",
     title: "WAV Concatenator - 音声ファイル結合ツール",
-    description: "二つのWAVファイルを簡単に結合し、イントロ付きループ音声を作成。",
+    description: "二つのWAVファイルを結合し、イントロ付きループ再生に適した一つのWAVファイルを生成します。",
     images: ["/icon.svg"],
   },
   robots: {

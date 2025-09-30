@@ -168,10 +168,9 @@ export default function Home() {
           <h1 className="text-5xl font-bold text-indigo-400 mb-4">
             WAV Concatenator
           </h1>
-          <p className="text-gray-300 text-lg mb-6">
+          <p className="text-gray-300 text-lg">
             音声ファイルを簡単に結合できるツールです
           </p>
-          
         </div>
 
         <div className="bg-gray-800 rounded-2xl shadow-xl border border-gray-700 p-8">
