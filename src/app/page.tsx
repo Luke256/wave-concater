@@ -172,29 +172,6 @@ export default function Home() {
             音声ファイルを簡単に結合できるツールです
           </p>
           
-          {/* 概要セクション */}
-          <div className="bg-gray-800/50 rounded-lg p-4 max-w-lg mx-auto">
-            <div className="flex items-center justify-center space-x-4 text-sm text-gray-400">
-              <div className="flex items-center">
-                <svg className="w-4 h-4 mr-1 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
-                無料
-              </div>
-              <div className="flex items-center">
-                <svg className="w-4 h-4 mr-1 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                </svg>
-                インストール不要
-              </div>
-              <div className="flex items-center">
-                <svg className="w-4 h-4 mr-1 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                簡単操作
-              </div>
-            </div>
-          </div>
         </div>
 
         <div className="bg-gray-800 rounded-2xl shadow-xl border border-gray-700 p-8">
