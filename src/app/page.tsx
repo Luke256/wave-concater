@@ -168,9 +168,33 @@ export default function Home() {
           <h1 className="text-5xl font-bold text-indigo-400 mb-4">
             WAV Concatenator
           </h1>
-          <p className="text-gray-300 text-lg">
+          <p className="text-gray-300 text-lg mb-6">
             音声ファイルを簡単に結合できるツールです
           </p>
+          
+          {/* 概要セクション */}
+          <div className="bg-gray-800/50 rounded-lg p-4 max-w-lg mx-auto">
+            <div className="flex items-center justify-center space-x-4 text-sm text-gray-400">
+              <div className="flex items-center">
+                <svg className="w-4 h-4 mr-1 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                無料
+              </div>
+              <div className="flex items-center">
+                <svg className="w-4 h-4 mr-1 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                </svg>
+                インストール不要
+              </div>
+              <div className="flex items-center">
+                <svg className="w-4 h-4 mr-1 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                簡単操作
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="bg-gray-800 rounded-2xl shadow-xl border border-gray-700 p-8">
@@ -404,6 +428,7 @@ export default function Home() {
               <li>• ビット深度を選択してください（推奨：32bit）</li>
               <li>• 「ファイルを結合する」ボタンをクリックして結合されたファイルをダウンロード</li>
               <li>• 1つ目のWAVファイルの最後に2つ目のWAVファイルが結合され、さらに1秒間2つ目のWAVファイルの冒頭が繰り返されます</li>
+              <li>• 処理は全てクライアント側で行われ、ファイルはサーバーに送信されません</li>
             </ul>
           </div>
         </div>
