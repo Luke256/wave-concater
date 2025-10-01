@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import wav from 'node-wav';
+import Link from 'next/link';
 
 type WavData = {
   readonly sampleRate: number;
@@ -162,7 +163,7 @@ export default function Home() {
     }
   };
   return (
-    <div className="min-h-screen bg-gray-900 py-12 px-4">
+    <div className="min-h-screen bg-gray-900 pt-12 px-4">
       <div className="max-w-2xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-5xl font-bold text-indigo-400 mb-4">
@@ -409,6 +410,15 @@ export default function Home() {
           </div>
         </div>
       </div>
+      
+      {/* フッター */}
+      <footer className="mt-16 border-t border-gray-700">
+        <div className="max-w-2xl mx-auto py-6 px-4 text-center">
+          <p className="text-sm text-gray-500">
+            &copy; 2025 <Link href="https://luke256.dev">Luke256</Link>. All rights reserved.
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }
