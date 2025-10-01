@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     title: "WAV Concatenator - 音声ファイル結合ツール",
     description: "二つのWAVファイルを結合し、イントロ付きループ再生に適した一つのWAVファイルを生成します。",
     siteName: "WAV Concatenator",
+		url: "wav-concat.luke256.dev",
     images: [
       {
         url: "/icon.svg",
